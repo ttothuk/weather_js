@@ -19,11 +19,6 @@ window.addEventListener('load', ()=> {
             //long = position.coords.longitude;
             //lat = position.coords.latitude;                        
 
-            function buttonFunction() {
-                let q = document.getElementById("buttonID").value;
-                console.log(q);}
-
-
             const q = "Budapest";
             const api_city = `https://api.openweathermap.org/data/2.5/weather?appid=57cb9da61fdd7b88043f4e59b148d268&q=${q}`;
             
@@ -59,3 +54,8 @@ window.addEventListener('load', ()=> {
         });       
     }    
 });
+
+function buttonFunction() {
+    let q = document.getElementById("buttonID").value;
+    console.log(q);
+}
