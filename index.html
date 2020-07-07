@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,17 +7,12 @@
     <title>Document</title>
     <script src="app.js"></script>
 </head>
+
 <body>
     <div class="commands">
         <input type="text" name="inputCountryName" id="inputCountryName" class="inputField" />
-        <button onclick="buttonFunction()" id="buttonID" class="button" type="button">Get Weather!</button>
-        <!--
-        <script>
-            function buttonFunction() {
-                var q = document.getElementById("buttonID").value;
-                console.log(q);}
-        </script>
-        -->
+        <button onclick="loadWeatherData()" id="buttonID" class="button" type="button">Get Weather!</button>
+
     </div>
     <div class="location">
         <h1 class="timezone">Timezone</h1>
@@ -31,6 +27,7 @@
     </div>
 
 
-    
+
 </body>
+
 </html>
